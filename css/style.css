@@ -1,0 +1,1234 @@
+:root {
+--blue: #5a9aef;
+}
+
+
+
+
+/********** start glabal style **********/
+body{
+    height: -webkit-fill-available;
+}
+*{
+    direction: rtl;
+    font-family: 'DroidArabicKufiRegular';
+    
+}.num{
+    font-family: 'Roboto', sans-serif;
+}
+/********** End global style **********/
+
+/********** Start header **********/
+.navbar-fixed-top{
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    top: 0;
+    background-color: #fff;
+}
+/********** Start upper-bar **********/
+.upper-bar{
+    background-color: #f5f5f5;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #373743;
+    text-align: right;
+}
+.upper-bar .navbar-nav{
+    padding: 0;
+}
+.form-search{
+    position: relative;
+    transition: all 1s;
+    width: 40px;
+    height: 40px;
+    background: var(--blue);
+    box-sizing: border-box;
+    padding: 5px;
+    left: 0; 
+}
+.search{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    line-height: 40px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 13px;
+    padding: 0 20px;
+}
+.fa{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    background: var(--blue);
+    text-align: center;
+    font-size: 13px;
+    transition: all 1s;
+}
+.form-search:hover{
+    width: 20%;
+    cursor: pointer;
+}
+
+.form-search:hover .search{
+    display: block;
+}
+
+/* .form-search:hover .fa{
+    background: var(--blue);
+} */
+/********** End upper-bar **********/
+/********** Start Brand **********/
+.brand{
+    padding: 20px;
+    text-align: right;
+}
+.brand .brand-image{
+    height: 90px;
+    padding-bottom: 5px;
+}
+.brand-image img{
+    height: 100%;
+}
+.ads{
+    background-color: #a4a7ac;
+}
+.ads .ads-text{
+    color: #d2d3d6;
+    font-size: 30px;
+    line-height: 90px;
+    font-weight: bold;
+}
+.ads .ads-size{
+    position: absolute;
+    font-size: 18px;
+    left: 5px;
+    font-weight: bold;
+    color: #fff;
+    top: 2.5vh
+}
+.ads-size span{
+    direction: ltr;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/********** End Brand **********/
+/********** Start navbar **********/
+.nav-bar{
+    font-size: 15px;
+    background-color: var(--blue);
+    padding: 10px 0;
+    font-weight: bold;
+    text-align: right;
+}
+.nav-bar .navbar-expand-lg .navbar-nav{
+    padding: 0
+}
+.nav-bar .navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    padding: 10px;
+}
+/********** End navbar **********/
+/********** Start News **********/
+.news{
+    background-color: #fff;
+    font-weight: bold;
+    text-align: right;
+    padding: 10px 0;
+}
+.news span{
+    font-size: 12px;
+    width: 97px;
+    height: 27px;
+    background-color: #cd201f;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+.news p{
+    font-size: 14px;
+    padding-right: 10px;
+}
+/********* End News **********/
+/********** End header **********/
+
+/********** Start Content **********/
+.content{
+    background-color: #f5f5f5;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 37vh; 
+}
+/********** Start Slider **********/
+.slider{
+    padding: 20px;
+    
+}
+.slider .slide{
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.05);
+    text-align: center
+}
+.slide .fas{
+    background: var(--blue);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.slide .fa-arrow-left{
+    position: absolute;
+    left: 20px;
+} 
+.slide .fa-arrow-right{
+    position: absolute;
+    right: 20px;
+} 
+.slider .news-slider{
+    font-size: 12px;
+    background-color: #53bf6b;
+    padding: 5px;
+    border-radius: 5px;
+    width: 97px;
+    height: 27px;
+    font-weight: bold;
+    right: 40%;
+    position: relative;
+    
+}
+.slider .head-news{
+    font-size: 14px;
+    font-weight: bold;
+}
+.slider .news-text{
+    font-size: 15px;
+    padding: 5px;
+    font-weight: none;
+    color: #a8a9a8;
+}
+.carousel-caption{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: unset;
+}
+.colors{
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.sidebar .choose-color{
+    font-size: 18px;
+    font-weight: bold;
+    color: #373743;
+    text-align: right;
+}
+.colors .col-4{
+    text-align: -webkit-center;
+    padding: 10px;
+}
+#blue{
+    background-color: var(--blue);
+}
+.colors .blue-c{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+}
+#red{
+    background-color: #cf1c13;
+}
+.colors .red-c{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+#green{
+    background: #1bb05d;
+}
+.colors .green-c{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+#yellow{
+    background-color: #f59d00;
+}
+.colors .yellow-c{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+}
+#purbble{
+    background-color: #8066b8;
+}
+.colors .purbble-c{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+#pink{
+    background-color: #f14165;
+}
+
+.colors .pink-c{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+.sidebar .ads{
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 40px;
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.05);
+}
+.sidebar .ads .ads-container{
+    background-color: #5cacc4;
+    padding: 20px;
+    height: 250px;
+}
+.sidebar .ads .ads-here{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+    color: #aed6e2;
+}
+.sidebar .ads .ads-size{
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    top: 14vh;
+}
+.sidebar .num{
+    display: block;
+    direction: ltr;
+    font-size: 15px;
+    color: #fff;
+    position: relative;
+    text-align: left;
+}
+/********** End Slider **********/
+
+
+/***********  Start articles ***********/
+.articles .art-container{
+    text-align: right;
+    background-color: #fff;
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    position: relative;
+    bottom: 20%;
+}
+.articles .art-container h2{
+    font-size: 18px;
+    font-weight: bold;
+    color: #373743;
+}
+/***********  Start main news ***********/
+.art-container .main-news {
+    padding: 20px 0;
+}
+.art-container .main-news .img-responsive{
+    width: 100%;
+}
+.art-container .main-news .Exclusive{
+    background-color: #fa6137;
+    font-size: 11px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 3px;
+    width: 80px;
+    height: 24px;
+    color: #fff;
+    padding: 2px 13px;
+}
+.art-container .main-news .statistics{
+    margin-right: 50%;
+    font-size: 12px;
+}
+.main-news .statistics span{
+    padding-left: 15px;
+}
+.main-news .statistics i{
+    padding-left: 7px;
+}
+.art-container .main-news .title{
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 0;
+    color: #373743;
+    
+}
+.art-container .main-news .news-content{
+    font-size: 14px;
+    color: #a8a9a8;
+
+}
+/***********  End main news ***********/
+.art-container .other-news .title-other{
+    font-size: 14px;
+    font-weight: bold;
+    color: #373743;
+}
+.art-container .other-news .img-responsive{
+    width: 100%;
+}
+.art-container .other-news .top-img{
+    padding-bottom: 20px;
+}
+.art-container .other-news .bottom-img{
+    padding-bottom: 20px;
+}
+.art-container .other-news .date{
+    font-size: 12px;
+}
+.art-container .other-news .title-other{
+    line-height: 25px;
+}
+/***********  start sidebar news ***********/
+.sidebar-news{
+    background-color: #fff;
+    text-align: right;
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    height: fit-content;
+}
+.sidebar-news .most-read{
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 20px
+}
+.sidebar-news .most-news{
+    font-size: 14px;
+}
+.sidebar-news .most-news .img-responsive{
+    max-width: 100%;
+}
+.sidebar-news .most-news .col-5{
+    padding-bottom: 20px;
+}
+/***********  End sidebar news ***********/
+
+/***********  Start second-row ***********/
+.second-row{
+    position: relative;
+    top: -11vh;
+}
+/***********  Start ads ***********/
+.ads-content{
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.05);
+    position: relative;
+    bottom: 20%;
+}
+.ads-content .ads{
+   padding: 0px 20px;
+   text-align: right;
+}
+.ads-content .ads .ads-size{
+    left: 40px;
+    top: 4.5vh;
+}
+/***********  End ads ***********/
+/***********  Start articles section2 ***********/
+.articles-section2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.articles-section2 .right-art{
+    background: #fff;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.05);
+    position: relative;
+    right: 0;
+}
+.articles-section2 .left-art{
+    background: #fff;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.05);
+    position: relative;
+    left: 0;
+}
+.articles-section2 .card-img-overlay{
+    bottom: 0;
+    top: unset;
+    text-align: center;
+    color: #fff;
+}
+.articles-section2 .card-img-overlay .card-title{
+    font-size: 11px;
+    font-weight: bold;
+    background-color: #48b1b5;
+    padding: 5px;
+    border-radius: 5px;
+    width: 81px;
+    height: 24px;
+    position: relative;
+    right: 36%;
+}
+.articles-section2 .card-img-overlay .card-text{
+    font-size: 14px;
+    font-weight: bold;
+}
+.articles-section2 .more-art{
+    display: block;
+    margin-top: 10px;
+}
+.articles-section2 .more-art .date-art{
+    font-size: 12px;
+    color: #373743;
+}
+.articles-section2 .more-art p{
+    font-size: 14;
+    font-weight: bold;
+    color: #373743;
+}
+.articles-section2 .more-art .more-article{
+    color: #9ba6ad;
+    font-size: 13px;
+    font-weight: bold;
+}
+/***********  End articles-section2 ***********/
+/***********  Start social ***********/
+.social{
+    background-color: #fff;
+    padding: 20px 35px;
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    top: -11vh;
+    position: relative;
+}
+.social .social-icon{
+    font-size: 40px;
+    cursor: pointer;
+    color: #fff;
+    padding: 15px;
+}
+.social .facebook{
+    background-color: #3b5998;
+}
+.social .twitter{
+    background-color: #00aced;
+}
+.social .youtube{
+    background-color: #cd201f;
+}
+.social .instagram{
+    background-color: #125688;
+}
+.social .google{
+    background-color: #dd4b39;
+}
+.social .rss{
+    background-color: #fd8805;
+}
+/***********  End social ***********/
+
+/***********  Start latest articles ***********/
+.latest-art{
+    text-align: center;
+    padding: 15px;
+    background-color: #fff;
+    position: relative;
+    top: -7vh;
+    font-size: 14px;
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.05);
+}
+.latest-art .nav-tabs{
+    padding: 15px;
+    font-weight: bold;
+    border: none;
+}
+.nav-tabs .nav-link.active{
+    border: none;
+}
+.nav-tabs .nav-link{
+    background-color: #353a3d;
+    border: none;
+    color: #fff;
+    border-radius: 0;
+    padding: 15px;
+}
+.tab-content{
+    text-align: right;
+}
+.tab-content .img-responsive{
+    padding-bottom: 15px;
+}
+/***********  End latest articles ***********/
+
+/***********  End second-row ***********/
+
+/***********  End articles ***********/
+
+/********** Start videos **********/
+.videos{
+    padding: 20px 0;
+}
+.videos-container{
+    text-align: right;
+    padding: 20px;
+    background: url('../image/Background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    top: -32vh;
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.05);
+}
+.videos-container h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+.videos-container .three-videos{
+    padding-top: 30px;
+}
+.videos-container .three-videos p{
+    padding-top: 15px;
+    font-size: 13px;
+}
+.videos .ads{
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.05);
+    position: relative;
+    top: -17vh;
+}
+.videos .ads .ads-container{
+    background-color: #5cacc4;
+    padding: 20px;
+    height: 250px;
+}
+.videos .ads .ads-here{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+    color: #aed6e2;
+}
+.videos .ads .ads-size{
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    top: 14vh;
+}
+.videos .num{
+    display: block;
+    direction: ltr;
+    font-size: 15px;
+    color: #fff;
+    position: relative;
+    text-align: left;
+}
+/********** End videos **********/
+
+/********** Start diff-art **********/
+.diff-art{
+    background-color: #fff;
+    padding: 20px;
+    text-align: right;
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.05);
+    position: relative;
+    top: -30vh;
+}
+.diff-art h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+.diff-art .all{
+    padding-top: 20px 
+}
+.diff-art .card{
+    width: 100%;
+    border: none;
+    border-radius: 0;
+}
+.diff-art .card .card-img-overlay{
+    text-align: center;
+    bottom: 0;
+    top: unset;
+    color: #fff
+}
+.diff-art .card .card-img-overlay .card-title{
+    font-size: 11px;
+    font-weight: bold;
+    background-color: #fa6137;
+    padding: 5px;
+    border-radius: 5px;
+    width: 81px;
+    height: 24px;
+    position: relative;
+    right: 45%;
+}
+.diff-art .card .card-img-overlay .card-text{
+    font-size: 17px;
+    font-weight: bold;
+}
+.diff-art .card .card-img-overlay .statistics{
+    font-size: 12px;
+    font-weight: bold;
+}
+.diff-art .card .card-img-overlay .statistics span{
+    padding: 0 10px;
+}
+.diff-art .other-news{
+    padding-top: 20px;
+}
+.diff-art .other-news .right-news{
+    padding: 0 15px;
+}
+.diff-art .other-news .left-news{
+    padding: 0 15px;
+}
+.diff-art .other-news .title-other{
+    font-size: 14px;
+    font-weight: bold;
+    color: #373743;
+}
+.diff-art .other-news .img-responsive{
+    width: 100%;
+}
+.diff-art .other-news .top-img{
+    padding-bottom: 20px;
+}
+.diff-art .other-news .bottom-img{
+    padding-bottom: 20px;
+}
+.diff-art .other-news .date{
+    font-size: 12px;
+}
+.diff-art .other-news .title-other{
+    line-height: 25px;
+}
+/********** End diff-art **********/
+
+/********** Start weekly-news **********/
+.weekly-news{
+    text-align: right;
+    color: #fff;
+    position: relative;
+    top: -20vh;
+}
+.weekly-news .card{
+    background-color: unset;
+    border: none;
+    border-radius: 0;
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.05);
+}
+.weekly-news .card-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+.weekly-news .card-text{
+    font-size: 14px;
+}
+.weekly-news .card .input-group{
+    padding-top: 20px;
+} 
+.weekly-news .card .input-group input{
+    border: none;
+    border-radius: unset;
+    background-clip: unset;
+    font-size: 14px;
+}
+.weekly-news .card .input-group input:focus{
+    box-shadow: unset;
+}
+.weekly-news .card .input-group .input-group-text{
+    border: none;
+    border-radius: unset;
+    background-color: #fff;
+    color: #e7324d;
+}
+/********** End weekly-news **********/
+
+/********** Start arabic-quotes **********/
+.arabic-quotes{
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    top: -17vh;
+}
+.arabic-quotes .card{
+    background-color: unset;
+    border: none;
+    border-radius: 0;
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.05);
+}
+.arabic-quotes .card-img-overlay{
+    text-align: center
+}
+.arabic-quotes .card-title{
+    text-align: right;
+    font-weight: bold;
+}
+/********** End arabic-quotes **********/
+
+/********** End Content **********/
+
+/********** Start Footer **********/
+footer{
+    text-align: right;
+    padding: 20px;
+    color: #373743;
+    background: #fff;
+    position: relative;
+    top: -28%;
+}
+footer h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--blue);
+}
+footer .site-map{
+    font-size: 14px;
+
+}
+footer .site-map .col-4{
+    padding: 0;
+}
+footer .site-map li{
+    cursor: pointer;
+    line-height: 2.286;
+}
+footer .about-us p{
+    font-size: 13px;
+}
+footer .news-logo {
+    text-align: center;
+    padding: 20px;
+}
+footer .news-logo .social-icon{
+    padding: 15px 0;
+    width: max-content;
+    text-align: center;
+    margin: auto;
+}
+footer .news-logo .social-icon i{
+    margin: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+footer .news-logo .social-icon .fa-youtube{
+    color: #cd201f;
+}
+footer .news-logo .social-icon .fa-twitter{
+    color: #00aced;
+}
+footer .news-logo .social-icon .fa-facebook-f{
+    color: #3b5998;
+}
+footer .news-logo .social-icon .fa-rss{
+    color: #fd8805;
+}
+footer hr{
+    height: 5px;
+    background-color: var(--blue);
+}
+footer .design-by p{
+    font-size: 15px;
+}
+footer .design-by .fa-heart{
+    color: var(--blue);
+}
+footer .design-by p span{
+    color: var(--blue);
+    cursor: pointer;
+}
+/********** End Footer **********/
+
+/********** Start media Query **********/
+@media (min-width: 1200px) {
+    .nav-bar{
+        font-size: 12px;
+    }
+    .slider .news-text{
+        font-size: 12px;
+        padding: 0;
+    }
+    .articles .art-container{
+       top: -18vh;
+    }
+    .art-container .main-news .statistics{
+        margin-right: 35%;
+    }
+    .ads-content {
+        top: 0vh;
+    }
+    .articles-section2{
+        top: 0vh;
+        position: relative;
+    }
+    .social{
+        top: -9vh;
+    }
+    .videos-container{
+        top: -32vh;
+    }
+    .diff-art {
+        top: -30vh;
+    }
+    footer{
+        position: relative;
+        top: -28vh;
+    }
+
+}
+@media (max-width: 1190px) {
+    .nav-bar{
+        font-size: 13px;
+    }
+    .slider .news-text{
+        font-size: 13px;
+    }
+    .articles .art-container{
+        top: -28vh;
+     }
+     .sidebar .num,
+     .videos .num{
+         display: none;
+     }
+     .art-container .main-news .statistics{
+        margin-right: 34%;
+     }
+     .art-container .main-news .news-content{
+         font-size: 12px
+     }
+     .second-row{
+         top: -26vh;
+     }
+     .articles-section2 .card-img-overlay .card-text{
+         font-size: 12px;
+     }
+     .articles-section2 .card-img-overlay .card-title{
+        width: 70px;
+        font-size: 10px;
+     }
+     .articles-section2 .more-art p{
+         font-size: 12px
+     }
+     .articles-section2 .more-art .date-art{
+         font-size: 10px;
+     }
+     .articles-section2 .more-art .more-article{
+         font-size: 12px;
+     }
+     .social{
+        top: 10vh;
+     }
+     .latest-art{
+         top: 12vh;
+         font-size: 10px;
+     }
+     .videos-container{
+         top: -57vh;
+     }
+     .videos .ads{
+         top: -14vh;
+     }
+     .diff-art{
+         top: -56vh;
+     }
+     .diff-art .card .card-img-overlay .card-text{
+         font-size: 15px;
+     }
+     .diff-art .card .card-img-overlay .statistics{
+         font-size: 11px; 
+     }
+     .weekly-news{
+         top: -16vh;
+     }
+     .arabic-quotes{
+         top: -13vh;
+     }
+     .weekly-news .card-title,
+     .arabic-quotes .card-title{
+        font-size: 15px;
+     }
+     .weekly-news .card-text,
+     .arabic-quotes .card-text{
+         font-size: 13px;
+     }
+     .weekly-news .card .input-group{
+         padding: 0;
+     }
+     footer{
+         top: -37vh;
+     }
+}
+@media (max-width: 990px) {
+    .navbar-fixed-top{
+        position: relative;
+        right: unset;
+        left: unset;
+        z-index: unset;
+        top: unset;
+        background-color: #fff;
+    }
+    .content{
+        margin-top: 0vh;
+    }
+    .slider .news-text {
+        display: none;
+    }
+    .sidebar .ads .ads-size{
+        top: 10vh ;
+    }
+    .sidebar .ads .ads-here{
+        font-size: 20px;
+    }
+    .articles .art-container{
+        top: -42vh;
+    }
+    .ads-size span{
+        display: none;
+    }
+    .ads .ads-size{
+        top: 4vh;
+    }
+    .art-container .main-news .statistics{
+        margin-right: 13% !important;
+    }
+    .art-container .main-news .title{
+        font-size: 14px;
+    }
+    .art-container .main-news .news-content{
+        font-size: 12px;
+    }
+    .art-container .other-news .title-other{
+        font-size: 12px;
+    }
+    .sidebar-news .most-news {
+        font-size: 12px;
+    }
+    .ads-content{
+        top: -18vh !important;
+    }
+    .articles-section2 {
+        top: -17vh !important;
+        position: relative;
+    }
+    .articles-section2 .card-img-overlay .card-text {
+        font-size: 11px;
+    }
+    .articles-section2 .card-img-overlay .card-title{
+        display: none;
+    }
+    .articles-section2 .more-art p{
+        font-size: 11px;
+    }
+    .articles-section2 .more-art p{
+        font-size: 10px;
+    }
+    .articles-section2 .more-art .more-article{
+        font-size: 11px;
+    }
+    .social {
+        top: 6vh;
+        margin-top: 30px;
+    }
+    .videos-container {
+        top: -88vh !important;
+    }
+    .videos .ads .ads-here{
+        font-size: 20px;
+    }
+    .tab-content .img-responsive{
+        width: 100%;
+    }
+    .latest-art{
+        font-size: 11px;
+    }
+    .nav-tabs .nav-link{
+        font-size: 9px;
+        padding: 4px;
+    }
+    .videos .ads .ads-size{
+        top: 10vh;
+    }
+    .diff-art{
+        top: -88vh !important;
+    }
+    .diff-art .card .card-img-overlay{
+        padding: 0;
+    }
+    .diff-art .card .card-img-overlay .card-text{
+        font-size: 14px;
+        margin: 0;
+    }
+    .diff-art .card .card-img-overlay .statistics span{
+        font-size: 9px;
+    }
+    .diff-art .card .card-img-overlay .card-title{
+        width: 60px;
+        height: 21px;
+        font-size: 9px;
+    }
+    .diff-art .other-news .title-other{
+        font-size: 11px;
+    }
+    .diff-art .other-news .date {
+        font-size: 9px;
+    }
+    .resp{
+        margin-top: -69vh;
+    }
+
+    .weekly-news .card-title{
+        font-size: 16px;
+    }
+    .weekly-news .card-text {
+        font-size: 12px;
+    }
+    .weekly-news hr{
+        margin: 3px;
+    }
+    .weekly-news .card .input-group input{
+        font-size: 11px;
+    }
+    .arabic{
+     top: -3vh;
+    }
+    .arabic-quotes .card-title{
+        font-size: 16px;
+    }
+    .arabic-quotes hr{
+        margin: 0;
+    }
+    .arabic-quotes .card-text {
+        font-size: 13px !important;
+    }
+    footer {
+        top: -52vh !important;
+    }
+    
+}
+
+@media (max-width: 767px){
+    .sidebar-news{
+        top: 26px;
+        position: relative;
+    }
+    .ads-content {
+        top: 33vh !important;
+    }
+    .articles-section2 {
+        top: 34vh !important;
+    }
+    .articles-section2 .right-art,
+    .articles-section2 .left-art{
+        margin-bottom: 15px;
+    }
+    .social {
+        top: 29vh;
+        margin-top: 30px;
+    }
+    .latest-art {
+        top: 33vh;
+        font-size: 13px;
+    }
+    .nav-tabs .nav-link{
+        font-size: 13px;
+        padding: 15px;
+    }
+    .slide .fas{
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+    }
+    .sidebar .colors{
+        top: 20px !important;
+        position: relative;
+    }
+    .articles .art-container{
+        top: 0vh !important;
+    }
+    .videos-container{
+        top: 7vh !important;
+    }
+    .videos .ads {
+        top: 8vh;
+    }
+    .diff-art {
+        top: 9vh !important;
+    }
+    .weekly-news .card-title,
+    .arabic-quotes .card-title{
+        font-size: 18px;
+    }
+    .weekly-news .card-text,
+    .arabic-quotes .card-text{
+        font-size: 14px;
+    }
+    .resp {
+        margin-top: 28vh;
+    }
+    footer {
+        top: -15vh !important;
+    }
+}
+
+@media (max-width: 575px){
+    .brand .brand-image{
+        text-align: center
+    }
+    .ads .ads-text{
+        font-size: 20px
+    }
+    .ads .ads-size{
+        top: 6vh;
+        font-size: 14px;
+    }
+    .art-container .main-news .statistics{
+        margin-right: 10% !important;
+    }
+    .ads-content .ads .ads-size{
+        left: 40px;
+        top: 10.5vh;
+    }
+    .nav-tabs .nav-link {
+        font-size: 10px;
+        padding: 10px;
+    }
+    .diff-art .card .card-img-overlay .card-text {
+        font-size: 10px;
+        margin: 0;
+    }
+    .diff-art .card .card-img-overlay .card-title {
+        display: none;
+    }
+    .diff-art .card .card-img-overlay .statistics span {
+        font-size: 8px;
+    }
+    footer .design-by p {
+        font-size: 10px;
+    }
+}
+/********** End media Query **********/
